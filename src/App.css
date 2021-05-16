@@ -1,0 +1,46 @@
+*{
+  margin: 0; 
+}
+.App{
+  background-color: #fafafa;
+}
+
+.app-header{
+  /* it wont stretch but perfect */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__post{
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.app_first{
+  align-self: start;
+  margin-bottom: 1rem;
+}
+
+.app-header-image{
+  object-fit: contain;
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.form-image{
+  margin-bottom: 15px;
+}
